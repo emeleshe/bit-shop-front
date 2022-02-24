@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RegistroComponent } from './components/registro/registro.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { RegistroComponent } from './components/registro/registro.component';
     NotFoundComponent,
     FooterComponent,
     RegistroComponent,
+    NosotrosComponent,
   ],
   imports: [
     BrowserModule,
